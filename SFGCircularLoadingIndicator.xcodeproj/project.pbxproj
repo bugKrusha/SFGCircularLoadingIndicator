@@ -14,6 +14,7 @@
 		0D4E296E24266AA60067A980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E296D24266AA60067A980 /* Assets.xcassets */; };
 		0D4E297124266AA60067A980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E296F24266AA60067A980 /* LaunchScreen.storyboard */; };
 		0D4E297C24266AA60067A980 /* SFGCircularLoadingIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E297B24266AA60067A980 /* SFGCircularLoadingIndicatorTests.swift */; };
+		0D4E2987242675CB0067A980 /* AnimationLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E2986242675CB0067A980 /* AnimationLayerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0D4E297724266AA60067A980 /* SFGCircularLoadingIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFGCircularLoadingIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4E297B24266AA60067A980 /* SFGCircularLoadingIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGCircularLoadingIndicatorTests.swift; sourceTree = "<group>"; };
 		0D4E297D24266AA60067A980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4E2986242675CB0067A980 /* AnimationLayerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				0D4E296624266AA40067A980 /* SceneDelegate.swift */,
 				0D4E296824266AA40067A980 /* LoadingViewController.swift */,
 				0D4E296A24266AA40067A980 /* Main.storyboard */,
+				0D4E2986242675CB0067A980 /* AnimationLayerBuilder.swift */,
 				0D4E296D24266AA60067A980 /* Assets.xcassets */,
 				0D4E296F24266AA60067A980 /* LaunchScreen.storyboard */,
 				0D4E297224266AA60067A980 /* Info.plist */,
@@ -202,6 +205,7 @@
 			files = (
 				0D4E296924266AA40067A980 /* LoadingViewController.swift in Sources */,
 				0D4E296524266AA40067A980 /* AppDelegate.swift in Sources */,
+				0D4E2987242675CB0067A980 /* AnimationLayerBuilder.swift in Sources */,
 				0D4E296724266AA40067A980 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
