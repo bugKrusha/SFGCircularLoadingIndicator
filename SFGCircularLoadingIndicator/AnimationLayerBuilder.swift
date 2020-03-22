@@ -19,7 +19,7 @@ final class AnimationLayerBuilder {
   private let taperSteps = 100
   
   // Animation progress
-  private let progress: CGFloat = 0.75
+  private let progress: CGFloat
   private let radius: CGFloat
   private let center: CGPoint
   private let lineWidth: CGFloat
@@ -29,12 +29,13 @@ final class AnimationLayerBuilder {
     func toRadians(degrees: CGFloat) -> CGFloat {
       degrees * .pi / 180
     }
+    self.progress = progress
     self.frame = frame
     
     // Make radius slightly smaller than the given frame
-    self.radius = frame.width * 0.9 / 2
+    self.radius = frame.width * 0.7 / 2
     self.center = CGPoint(x: frame.midX, y: frame.midY)
-    self.lineWidth = frame.width / 25
+    self.lineWidth = frame.width / 45
     self.gap = toRadians(degrees: 30)
     self.majorStart = toRadians(degrees: 0.0)
     self.majorEnd = toRadians(degrees: 260)
